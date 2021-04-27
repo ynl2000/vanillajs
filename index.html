@@ -17,22 +17,22 @@
   <nav>
     <ul class="header-nav">
       <li class="header-nav__item">
-        <a class="header-nav__link" href="#">메뉴1</a>
+        <a class="header-nav__link" href="#">특징</a>
       </li>
       <li class="header-nav__item">
-        <a class="header-nav__link" href="#">메뉴2</a>
+        <a class="header-nav__link" href="#">서비스</a>
       </li>
       <li class="header-nav__item">
-        <a class="header-nav__link" href="#">메뉴3</a>
+        <a class="header-nav__link" href="#">포트폴리오</a>
       </li>
       <li class="header-nav__item">
-        <a class="header-nav__link" href="#">메뉴4</a>
+        <a class="header-nav__link" href="#">기업정보</a>
       </li>
       <li class="header-nav__item">
-        <a class="header-nav__link" href="#">메뉴5</a>
+        <a class="header-nav__link" href="#">채용정보</a>
       </li>
       <li class="header-nav__item">
-        <a class="header-nav__link" href="#">메뉴6</a>
+        <a class="header-nav__link" href="#">블로그</a>
       </li>
     </ul>
   </nav>
@@ -45,7 +45,7 @@
          <div class="content__inner">
             <main class="content__main">
                 <article>
-                  <!-- <h2 class="level2-heading">
+                  <h2 class="level2-heading">
                       LinkedIn B2B 마케팅 필수 가이드
                   </h2>
                   <p>
@@ -64,7 +64,13 @@
                       (출처:
                       <a href="https://foundationinc.co/lab/BtoB-marketing-linkedin-stats/">https://foundationinc.co/lab/BtoB-marketing-linkedin-stats/</a>
                       )
-                  </p> -->
+                  </p>
+
+                  <h2 class="level2-heading">
+                    데이트 피커  
+                  </h2>
+
+                  <input type="text" class="js-datepicker" id="js-datepicker">
 
                   <h2 class="level2-heading">
                      셀렉트 박스 
@@ -114,6 +120,110 @@
                     </select>
                   </div>
                   <!-- /.selectBox -->                      
+                </article>
+
+                <article>                  
+                  <h2 class="level2-heading">
+                    가로 테이블
+                  </h2>
+
+                  <div class="horizontal-table horizontal-table--md-scroll hp-mt20">
+                    <table class="horizontal-table__inner">
+                      <tbody class="horizontal-table__body">
+                        <tr class="horizontal-table__row">
+                          <th class="horizontal-table__header">이름</th>
+                          <td class="horizontal-table__text">홍길동</td>
+                        </tr>
+                        <tr class="horizontal-table__row">
+                          <th class="horizontal-table__header">소속</th>
+                          <td class="horizontal-table__text">주식회사 24-7／주식회사 제이펍</td>
+                        </tr>
+                        <tr class="horizontal-table__row">
+                          <th class="horizontal-table__header">직종</th>
+                          <td class="horizontal-table__text">테크니컬 디렉터 / 시니어 엔지니어</td>
+                        </tr>
+                        <tr class="horizontal-table__row">
+                          <th class="horizontal-table__header">특기 분야</th>
+                          <td class="horizontal-table__text">CSS 설계, HubSpot CMS</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- /.horizontal-table horizontal-table--md-scroll -->
+                </article>
+
+                <article>                  
+                  <h2 class="level2-heading">
+                    세로 테이블
+                  </h2>
+
+                  <div class="vertical-table hp-mt20">
+                    <table class="vertical-table__inner">
+                      <thead class="vertical-table__headers">
+                        <tr class="vertical-table__header-row">
+                          <th class="vertical-table__header">소속</th>
+                          <th class="vertical-table__header">직종</th>
+                          <th class="vertical-table__header">특기 분야</th>
+                        </tr>
+                      </thead>
+                      <tbody class="vertical-table__body">
+                        <tr class="vertical-table__body-row">
+                          <td class="vertical-table__text">주식회사 24-7 / 주식회사 제이펍</td>
+                          <td class="vertical-table__text">테크니컬 디렉터 / 시니어 엔지니어</td>
+                          <td class="vertical-table__text">CSS 설계, HubSpot CMS</td>
+                        </tr>
+                        <tr class="vertical-table__body-row">
+                          <td class="vertical-table__text">주식회사 제이펍</td>
+                          <td class="vertical-table__text">엔지니어</td>
+                          <td class="vertical-table__text">Vue.js / Nuxt.js</td>
+                        </tr>
+                        <tr class="vertical-table__body-row">
+                          <td class="vertical-table__text">주식회사 제이펍</td>
+                          <td class="vertical-table__text">엔지니어</td>
+                          <td class="vertical-table__text">Adobe XD</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- vertical-table -->
+
+                  <h2 class="level2-heading">
+                    세로 테이블 (좌측 고정 - IE 작동 X)
+                  </h2>
+
+                  <div class="vertical-table hp-mt20">
+                    <table class="vertical-table__inner">
+                      <thead class="vertical-table__headers">
+                        <tr class="vertical-table__header-row">
+                          <th class="vertical-table__header vertical-table__header--md-sticky">이름</th>
+                          <th class="vertical-table__header">소속</th>
+                          <th class="vertical-table__header">직종</th>
+                          <th class="vertical-table__header">특기 분야</th>
+                        </tr>
+                      </thead>
+                      <tbody class="vertical-table__body">
+                        <tr class="vertical-table__body-row">
+                          <th class="vertical-table__header vertical-table__header--md-sticky">홍길동</th>
+                          <td class="vertical-table__text">주식회사 24-7 / 주식회사 제이펍</td>
+                          <td class="vertical-table__text">테크니컬 디렉터 / 시니어 엔지니어</td>
+                          <td class="vertical-table__text">CSS 설계, HubSpot CMS</td>
+                        </tr>
+                        <tr class="vertical-table__body-row">
+                          <th class="vertical-table__header vertical-table__header--md-sticky">김하나</th>
+                          <td class="vertical-table__text">주식회사 제이펍</td>
+                          <td class="vertical-table__text">엔지니어</td>
+                          <td class="vertical-table__text">Vue.js / Nuxt.js</td>
+                        </tr>
+                        <tr class="vertical-table__body-row">
+                          <th class="vertical-table__header vertical-table__header--md-sticky">이현이</th>
+                          <td class="vertical-table__text">주식회사 제이펍</td>
+                          <td class="vertical-table__text">엔지니어</td>
+                          <td class="vertical-table__text">Adobe XD</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <!-- /.vertical-table & sticky -->                  
                 </article>
 
                 <article>
@@ -177,19 +287,19 @@
                     <dt class="accordion__row accordion__row-question">
                       <span class="blind">(질문)</span>
                       <a href="#" class="accordion__question-link" title="이곳을 클릭시 내용이 제공됩니다.">
-                         좋아하는 음식이 무엇입니까?
+                        어떤 CMS를 개발한 실적이 있습니까?
                       </a>
                     </dt>
                     <dd class="accordion__row accordion__row-answer">
                       <span class="blind">(답변)</span>
                       <div class="accordion__answer-body">
-                         고기입니다.
+                          WordPress, Movable Type, HubSpot CMS, Sitecore를 개발했습니다.
                       </div>
                     </dd>
                     <dt class="accordion__row accordion__row-question">
                       <span class="blind">(질문)</span>
                       <a href="#" class="accordion__question-link" title="이곳을 클릭시 내용이 제공됩니다.">
-                         좋아하는 음식이 무엇입니까? (2줄 테스트)  좋아하는 음식이 무엇입니까? (2줄 테스트)  좋아하는 음식이 무엇입니까? (2줄 테스트) 좋아하는 음식이 무엇입니까? (2줄 테스트)
+                          일반적으로 사용하는 CSS 설계 기법을 알려주세요.
                       </a>
                     </dt>
                     <dd class="accordion__row accordion__row-answer">
@@ -205,25 +315,25 @@
                     <dt class="accordion__row accordion__row-question">
                       <span class="blind">(질문)</span>
                       <a href="#" class="accordion__question-link" title="이곳을 클릭시 내용이 제공됩니다.">
-                         당신의 혈액형은 무엇입니까?
+                        어떤 CMS를 개발한 실적이 있습니까?
                       </a>
                     </dt>
                     <dd class="accordion__row accordion__row-answer">
                       <span class="blind">(답변)</span>
                       <div class="accordion__answer-body">
-                         A형입니다.
+                          WordPress, Movable Type, HubSpot CMS, Sitecore를 개발했습니다.
                       </div>
                     </dd>
                     <dt class="accordion__row accordion__row-question">
                       <span class="blind">(질문)</span>
                       <a href="#" class="accordion__question-link" title="이곳을 클릭시 내용이 제공됩니다.">
-                         아코디언이 BEM 모듈 , 바닐라 JS로 제작 되엇고 IE 9부터 사용 가능하다는게 사실입니까?
+                          일반적으로 사용하는 CSS 설계 기법을 알려주세요.
                       </a>
                     </dt>
                     <dd class="accordion__row accordion__row-answer">
                       <span class="blind">(답변)</span>
                       <div class="accordion__answer-body">
-                         네 사실입니다.
+                          OOCSS를 시작으로 SMACSS, BEM, FLOCSS, PRECSS 일체에 대응할 수 있습니다. 어떤 기법을 사용할 것인지는 요구사항 특성에 따라 결정합니다.
                       </div>
                     </dd>
                   </dl><!-- /.accordion accordion-faq -->
@@ -421,5 +531,18 @@
   <!-- /.footer footer--border-top-gray -->        
     </footer>
     <script type="text/javascript" src="./script/common.js"></script>
+    <script>
+        const d = new Datepicker(document.getElementById("date-input"), {
+          last_date: new Date(2020, 06, 21),
+          enabled_days: (d) => {
+            return d.getDay() > 0 && d.getDay() < 6;
+          },
+          format: (d) => {
+            return MONTHS_SHORT[d.getMonth()] + " " + d.getDate();
+          },
+        });
+    </script>
+
+    
 </body>
 </html>
