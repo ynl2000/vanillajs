@@ -67,12 +67,6 @@
                   </p>
 
                   <h2 class="level2-heading">
-                    데이트 피커  
-                  </h2>
-
-                  <input type="text" class="js-datepicker" id="js-datepicker">
-
-                  <h2 class="level2-heading">
                      셀렉트 박스 
                   </h2>
 
@@ -529,20 +523,7 @@
     <!-- /.footer__inner -->
   </div>
   <!-- /.footer footer--border-top-gray -->        
-    </footer>
-    <script type="text/javascript" src="./script/common.js"></script>
-    <script>
-        const d = new Datepicker(document.getElementById("date-input"), {
-          last_date: new Date(2020, 06, 21),
-          enabled_days: (d) => {
-            return d.getDay() > 0 && d.getDay() < 6;
-          },
-          format: (d) => {
-            return MONTHS_SHORT[d.getMonth()] + " " + d.getDate();
-          },
-        });
-    </script>
-
-    
+  </footer>
+  <script type="text/javascript" src="./script/common.js"></script>
 </body>
 </html>
